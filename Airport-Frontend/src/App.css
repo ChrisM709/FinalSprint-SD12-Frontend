@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-.app-container {
+.appContainer {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -27,7 +27,7 @@
   color: black;
 }
 
-.button-group {
+.buttonGroup {
   display: flex;
   gap: 16px;
   justify-content: center;
