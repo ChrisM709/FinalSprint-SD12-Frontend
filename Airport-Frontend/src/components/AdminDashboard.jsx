@@ -1,4 +1,4 @@
-import './AdminDashboard.css';
+import "../styles/AdminDashboard.css";
 import { Link } from 'react-router-dom';
 
 function AdminDashboard() {

@@ -1,4 +1,4 @@
-import './FlightTracker.css';
+import "../styles/FlightTracker.css";
 import { Link } from 'react-router-dom';
 
 function FlightTracker() {
