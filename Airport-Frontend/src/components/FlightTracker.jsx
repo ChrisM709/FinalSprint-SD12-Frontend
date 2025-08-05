@@ -36,7 +36,6 @@ function FlightTracker() {
               <th>Destination</th>
               <th>Flight</th>
               <th>Gate</th>
-              <th>Status</th>
             </tr>
           </thead>
           <tbody>
@@ -47,7 +46,6 @@ function FlightTracker() {
                 <td>{flight.destination}</td>
                 <td>{flight.flight}</td>
                 <td>{flight.gate}</td>
-                <td>{flight.status}</td>
               </tr>
             ))}
           </tbody>
