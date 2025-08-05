@@ -10,9 +10,12 @@ function AdminDashboard() {
       </Link>
       <div className="adminPanel">
         <div className="adminButtons">
-          <button className="adminButton">Manage Flights</button>
-          <button className="adminButton">Manage Aircrafts</button>
-          <button className="adminButton">Manage Gates</button>
+          <Link to="/admin/aircrafts">
+            <button className="adminButton">Manage Aircrafts</button>
+          </Link>
+          <Link to="/admin/gates">
+            <button className="adminButton">Manage Gates</button>
+          </Link>
         </div>
         <div className="adminMap">
           <iframe
@@ -20,6 +23,7 @@ function AdminDashboard() {
             width="100%"
             height="100%"
             style={{ border: "none", borderRadius: "8px" }}
+            title="Live Flight Map"
           ></iframe>
         </div>
       </div>
