@@ -8,7 +8,7 @@
 }
 
 .flightPanel {
-  background-color: white;
+  background-color: rgb(11, 2, 141);
   padding: 32px 48px;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -20,4 +20,25 @@
 
 .btn {
     margin-bottom: 20px;
+}
+
+.flightTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.flightTable th,
+.flightTable td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+}
+
+.flightTable th {
+  color: white;
+  font-weight: bold;
+  position: sticky;
+  top: 0px;
 }
