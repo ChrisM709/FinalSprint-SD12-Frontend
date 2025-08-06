@@ -3,6 +3,7 @@ import "../styles/ManageAircrafts.css";
 
 function ManageAircrafts() {
   return (
+    <div className="aircraftPage">
     <div className="manageAircrafts">
       <h1>Manage Aircrafts</h1>
       <Link to="/admin">
@@ -10,8 +11,9 @@ function ManageAircrafts() {
       </Link>
 
       <div className="aircraftPanel">
-        <p>This is where you’ll add, update, and delete aircrafts.</p>
+        <p>This is where you'll add, update, and delete aircrafts.</p>
       </div>
+    </div>
     </div>
   );
 }

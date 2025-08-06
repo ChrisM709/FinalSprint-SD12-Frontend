@@ -3,6 +3,7 @@ import "../styles/ManageGates.css";
 
 function ManageGates() {
   return (
+    <div className="gatePage">
     <div className="manageGates">
       <h1>Manage Gates</h1>
       <Link to="/admin">
@@ -11,6 +12,7 @@ function ManageGates() {
       <div className="gatesPanel">
         <p>This is where you’ll add, update, and delete gates.</p>
       </div>
+    </div>
     </div>
   );
 }
