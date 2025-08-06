@@ -16,8 +16,8 @@ function FlightToggle({ onToggle }) {
           width: "100px",
           height: "30px",
           fontSize: "14px",
-          color: selected === "arrivals" ? "#000" : "#fff",
-          backgroundColor: selected === "arrivals" ? "#fff" : "#00008B",
+          color: selected === "arrivals" ? "#fff" : "#000",
+          backgroundColor: selected === "arrivals" ? "#58a789" : "#fff",
           border: "1px solid #ffffff",
           borderRight: "none",
           borderRadius: "8px 0 0 8px",
@@ -26,6 +26,7 @@ function FlightToggle({ onToggle }) {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          border: "1px solid black"
         }}
       >
         Arrivals
@@ -36,8 +37,8 @@ function FlightToggle({ onToggle }) {
           width: "100px",
           height: "30px",
           fontSize: "14px",
-          color: selected === "departures" ? "#000" : "#fff",
-          backgroundColor: selected === "departures" ? "#fff" : "#00008B",
+          color: selected === "departures" ? "#fff" : "#000",
+          backgroundColor: selected === "departures" ? "#58a789" : "#fff",
           border: "1px solid #ffffff",
           borderRadius: "0 8px 8px 0",
           fontWeight: selected === "departures" ? "bold" : "normal",
@@ -45,6 +46,7 @@ function FlightToggle({ onToggle }) {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          border: "1px solid black",
         }}
       >
         Departures

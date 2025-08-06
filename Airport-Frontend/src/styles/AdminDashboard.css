@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: linear-gradient(#73E3FF,#2E8584); 
 }
 
 .adminPanel {
@@ -50,7 +51,7 @@
   height: 240px;
   background-color: #f0f0f0;
   border-radius: 8px;
-  border: 2px solid #000;
+  border: 2px solid #54e576;
   display: flex;
   align-items: center;
   justify-content: center;
