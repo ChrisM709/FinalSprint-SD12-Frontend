@@ -10,7 +10,7 @@ function ManageFlights() {
         <button className="btn">Back to Dashboard</button>
       </Link>
 
-      <div className="flightPanel">
+      <div className="adminFlightPanel">
         <p>This is where you'll add, update, and delete aircrafts.</p>
       </div>
     </div>
