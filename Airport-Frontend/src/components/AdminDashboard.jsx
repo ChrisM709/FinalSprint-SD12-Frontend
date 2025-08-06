@@ -10,6 +10,10 @@ function AdminDashboard() {
       </Link>
       <div className="adminPanel">
         <div className="adminButtons">
+          
+          <Link to="/admin/flights">
+            <button className="adminButton">Manage Flights</button>
+          </Link>
           <Link to="/admin/aircrafts">
             <button className="adminButton">Manage Aircrafts</button>
           </Link>

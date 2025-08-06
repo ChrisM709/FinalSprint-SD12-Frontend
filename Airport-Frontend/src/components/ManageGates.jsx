@@ -10,7 +10,7 @@ function ManageGates() {
         <button className="btn">Back to Dashboard</button>
       </Link>
       <div className="gatesPanel">
-        <p>This is where you’ll add, update, and delete gates.</p>
+        <p>This is where you'll add, update, and delete gates.</p>
       </div>
     </div>
     </div>
