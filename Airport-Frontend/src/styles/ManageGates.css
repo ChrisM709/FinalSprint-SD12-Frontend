@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(#73E3FF,#2E8584); 
+  background-image: linear-gradient(#73e3ff, #2e8584);
 }
 
 .manageGates {
@@ -25,4 +25,83 @@
   width: 90%;
   max-width: 600px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; 
+}
+
+.gatesDropdown,
+.gatesPanel input {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 14px;
+  font-size: 15px;
+  background: #ffffff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 6px;
+  flex-direction: column;
+}
+
+.gatesTable {
+  background-color: rgb(253, 253, 253);
+  padding: 32px 48px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border: 1px solid black;
+  color: black;
+  margin-top: 25px;
+}
+
+.gatesTable th,
+.gatesTable td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #000;
+  font-size: 14px;
+}
+
+.gatesTable th {
+  color: #000;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+.deleteBtn {
+  padding: 6px 12px;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background: #c0392b;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px 24px;
+  background: #6dd5fa;
+  border: 1px solid #000;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #2193b0;
+  color: #fff;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px #2e2e2e;
 }
