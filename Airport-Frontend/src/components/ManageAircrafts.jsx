@@ -46,7 +46,7 @@ function ManageAircrafts() {
       const body = {
         ...form,
         capacity: Number(form.capacity),
-        airlineId: selectedAirline,
+        airline: { id: Number(selectedAirline) },
       };
       await fetch("http://localhost:8080/aircraft", {
         method: "POST",
